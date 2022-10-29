@@ -22,13 +22,13 @@
 body {
     max-width: 1440px;
     margin: auto;
-    font-family: Roboto-Medium, serif;
+    font-family: Roboto-Medium;
     font-style: normal;
 }
 
 header {
     display: flex;
-    padding: 20px 25px;
+    padding: 22px 25px 9px 25px;
     align-items: center;
 }
 
@@ -61,6 +61,7 @@ header {
 
 .list a {
     text-decoration: none;
+    color: #1B365D;
 }
 
 .button {
@@ -176,11 +177,11 @@ header {
     text-align: center;
     padding: 0 8px;
 }
-
+.card__content{
+    margin-top: -170px;
+    color: #FFFFFF;
+}
 .card__img-1 {
-    background: url("../img/card1.png");
-    width: 304px;
-    height: 587px;
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
@@ -189,9 +190,6 @@ header {
 }
 
 .card__img-2 {
-    background: url("../img/card2.png");
-    width: 304px;
-    height: 587px;
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
@@ -200,9 +198,6 @@ header {
 }
 
 .card__img-3 {
-    background: url("../img/card3.png");
-    width: 304px;
-    height: 587px;
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
@@ -211,9 +206,6 @@ header {
 }
 
 .card__img-4 {
-    background: url("../img/card4.png");
-    width: 304px;
-    height: 587px;
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
@@ -398,13 +390,13 @@ header {
 
 .line-small__text p {
     margin-top: 0;
-    padding-left: 24px;
     font-size: 17px;
     line-height: 23px;
     color: #FFFFFF;
     height: 23px;
-    padding-top: 20px;
+    padding: 17px 10px 10px 24px;
     font-family: Roboto-Light;
+    font-weight: 700;
 }
 
 .social__content {
@@ -432,13 +424,24 @@ header {
     margin-bottom: 46px;
 }
 
-.alexa__btn {
+.button-5 {
     background: #ADD4E0;
     border: 1px solid #ADD4E0;
     border-radius: 24px;
     padding: 13px 25px;
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+    color: #1B365D;
+
 }
 
+.alexa__btn{
+    padding: 0;
+    border: none;
+}
 .alexa__description p {
     font-weight: 400;
     font-size: 11px;
@@ -475,7 +478,8 @@ header {
     color: #1B365D;
     padding-top: 32px;
     padding-left: 32px;
-    margin-bottom: 9px;
+    margin: 0;
+    padding-bottom: 9px;
 }
 
 .design__text-lt p {
@@ -503,7 +507,8 @@ header {
     color: #FFFFFF;
     padding-top: 32px;
     padding-left: 32px;
-    margin-bottom: 9px;
+    margin: 0;
+    padding-bottom: 9px;
 }
 
 .design__text-rt p {
@@ -607,6 +612,10 @@ header {
     padding: 13px 25px;
     margin: 0 98px 25px 98px;
 }
+.button-6{
+    text-decoration: none;
+    color: #FFFFFF;
+}
 
 .card__link {
     margin-top: 25px;
@@ -621,13 +630,15 @@ header {
     border: 1px solid #FFFFFF;
     border-radius: 24px;
     text-align: center;
-    color: #1B365D;
     font-weight: 400;
     font-size: 14px;
     padding: 13px 33px;
     margin: 32px 624px 29px 623px;
 }
-
+.button-7{
+    text-decoration: none;
+    color: #1B365D;
+}
 .footer__logo {
     margin-right: 93px;
 }
@@ -680,12 +691,18 @@ header {
     margin-left: 154px;
 }
 
-.language p {
+.language {
     border: 1px solid #3D434C;
     border-radius: 5px;
     margin-top: 52px;
     text-align: center;
-    padding: 12px 0;
+    padding: 12px 50px;
+    background: #272E38;
+    margin-left: 154px;
+}
+.button-8{
+    text-decoration: none;
+    color: #FFFFFF;
 }
 
 .container-footer {
